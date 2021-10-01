@@ -1,11 +1,11 @@
 package syntax
 
-fun main(args: Array<string>) {
-    //변수: 프로그램에서 사용할 데이터를 임시로 저장해놓는 그릇이다.
+fun main() {
+    //변수 var: 프로그램에서 사용할 데이터를 임시로 저장해놓는 그릇이다.
     var number: Int = 1234
     var message: String = "Hello"
     number =200 // 상수가 아니므로 오류가 나지 않는다.
-    //상수
+    //상수 val
     var PI = 24
     println(number)
     println(message)
